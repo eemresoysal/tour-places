@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-size: 1.5rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.navbarBox {
+    display: flex;
+    gap: 3rem;
+    padding: 0 1rem;
+}
+
+.navbarBox:hover {
+    cursor: pointer;
+    background-color: var(--color);
+
+
+}
+
+@media screen and (min-width:2700px) {
+    .navbar {
+
+        /* height: 8vh; */
+        font-size: 3rem;
+    }
+}
